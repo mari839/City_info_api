@@ -1,0 +1,125 @@
+2023-03-01 18:49:24.989 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-01 18:49:25.193 +04:00 [DBG] Hosting starting
+2023-03-01 18:49:25.294 +04:00 [INF] User profile is available. Using 'C:\Users\tanda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-01 18:49:25.323 +04:00 [DBG] Reading data from file 'C:\Users\tanda\AppData\Local\ASP.NET\DataProtection-Keys\key-b81c7a44-0706-4504-9afa-e818e79c5f1f.xml'.
+2023-03-01 18:49:25.416 +04:00 [DBG] Found key {b81c7a44-0706-4504-9afa-e818e79c5f1f}.
+2023-03-01 18:49:25.448 +04:00 [DBG] Considering key {b81c7a44-0706-4504-9afa-e818e79c5f1f} with expiration date 2023-05-05 15:40:10Z as default key.
+2023-03-01 18:49:25.451 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-01 18:49:25.472 +04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-01 18:49:25.474 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-01 18:49:25.483 +04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-01 18:49:25.486 +04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-01 18:49:25.492 +04:00 [DBG] Using key {b81c7a44-0706-4504-9afa-e818e79c5f1f} as the default key.
+2023-03-01 18:49:25.494 +04:00 [DBG] Key ring with default key {b81c7a44-0706-4504-9afa-e818e79c5f1f} was loaded during application startup.
+2023-03-01 18:49:25.952 +04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 15C35FE63380DEAE6E68C9150D29F2D697CE75F4)
+2023-03-01 18:49:26.065 +04:00 [INF] Now listening on: https://localhost:7032
+2023-03-01 18:49:26.066 +04:00 [INF] Now listening on: http://localhost:5106
+2023-03-01 18:49:26.067 +04:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-03-01 18:49:26.068 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-01 18:49:26.069 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-01 18:49:26.070 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-01 18:49:26.071 +04:00 [INF] Hosting environment: Development
+2023-03-01 18:49:26.071 +04:00 [INF] Content root path: C:\Users\tanda\source\repos\CityInfo\CityInfo.API\
+2023-03-01 18:49:26.072 +04:00 [DBG] Hosting started
+2023-03-01 18:50:11.797 +04:00 [DBG] Connection id "0HMOQCH183OTJ" accepted.
+2023-03-01 18:50:11.811 +04:00 [DBG] Connection id "0HMOQCH183OTK" accepted.
+2023-03-01 18:50:11.812 +04:00 [DBG] Connection id "0HMOQCH183OTJ" started.
+2023-03-01 18:50:11.812 +04:00 [DBG] Connection id "0HMOQCH183OTK" started.
+2023-03-01 18:50:11.898 +04:00 [DBG] Connection id "0HMOQCH183OTJ" received FIN.
+2023-03-01 18:50:11.918 +04:00 [DBG] Connection 0HMOQCH183OTK established using the following protocol: "Tls12"
+2023-03-01 18:50:11.918 +04:00 [DBG] Connection 0HMOQCH183OTJ established using the following protocol: "Tls12"
+2023-03-01 18:50:11.937 +04:00 [DBG] Connection id "0HMOQCH183OTJ" is closed. The last processed stream ID was 0.
+2023-03-01 18:50:11.940 +04:00 [DBG] Connection id "0HMOQCH183OTJ" sending FIN because: "The client closed the connection."
+2023-03-01 18:50:11.948 +04:00 [DBG] Connection id "0HMOQCH183OTJ" stopped.
+2023-03-01 18:50:11.989 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger - -
+2023-03-01 18:50:12.036 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-01 18:50:12.229 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger/index.html - -
+2023-03-01 18:50:12.229 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger - - - 301 0 - 216.6802ms
+2023-03-01 18:50:12.318 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-01 18:50:12.677 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-01 18:50:12.709 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger/swagger-ui.css - -
+2023-03-01 18:50:12.709 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger/swagger-ui-bundle.js - -
+2023-03-01 18:50:12.709 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger/swagger-ui-standalone-preset.js - -
+2023-03-01 18:50:12.709 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/_framework/aspnetcore-browser-refresh.js - -
+2023-03-01 18:50:12.718 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger/index.html - - - 200 - text/html;charset=utf-8 488.6684ms
+2023-03-01 18:50:12.786 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/_vs/browserLink - -
+2023-03-01 18:50:12.802 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 92.8855ms
+2023-03-01 18:50:12.818 +04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-01 18:50:12.823 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger/swagger-ui.css - - - 200 143632 text/css 114.5433ms
+2023-03-01 18:50:12.867 +04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-01 18:50:12.894 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 184.5492ms
+2023-03-01 18:50:12.938 +04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-01 18:50:12.963 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 177.0750ms
+2023-03-01 18:50:12.969 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 260.2586ms
+2023-03-01 18:50:13.093 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger/favicon-32x32.png - -
+2023-03-01 18:50:13.094 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-01 18:50:13.096 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger/favicon-32x32.png - - - 200 628 image/png 2.5623ms
+2023-03-01 18:50:13.213 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/swagger/v1/swagger.json - -
+2023-03-01 18:50:13.464 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 252.2035ms
+2023-03-01 18:50:18.501 +04:00 [DBG] Connection id "0HMOQCH183OTK" received FIN.
+2023-03-01 18:50:18.506 +04:00 [DBG] Connection id "0HMOQCH183OTK" is closed. The last processed stream ID was 17.
+2023-03-01 18:50:18.510 +04:00 [DBG] Connection id "0HMOQCH183OTK" sending FIN because: "The client closed the connection."
+2023-03-01 18:50:18.523 +04:00 [DBG] Connection id "0HMOQCH183OTK" stopped.
+2023-03-01 18:51:00.146 +04:00 [DBG] Connection id "0HMOQCH183OTL" accepted.
+2023-03-01 18:51:00.165 +04:00 [DBG] Connection id "0HMOQCH183OTL" started.
+2023-03-01 18:51:00.183 +04:00 [DBG] Connection 0HMOQCH183OTL established using the following protocol: "Tls12"
+2023-03-01 18:51:00.185 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/api/cities?pageNumber=1&pageSize=10 - -
+2023-03-01 18:51:00.186 +04:00 [DBG] The request path  does not match the path filter
+2023-03-01 18:51:00.221 +04:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2023-03-01 18:51:00.226 +04:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2023-03-01 18:51:00.254 +04:00 [INF] Request did not specify a service API version, but multiple candidate actions were found. Candidate actions: CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)
+2023-03-01 18:51:00.258 +04:00 [DBG] Request matched endpoint 'null'
+2023-03-01 18:51:00.721 +04:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-01 18:51:00.725 +04:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-03-01 18:51:00.730 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-01 18:51:00.737 +04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-03-01 18:51:00.750 +04:00 [WRN] An error occurred while trying to create a DataContractSerializer for the type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+System.Runtime.Serialization.InvalidDataContractException: Type '<>f__AnonymousType0`1[<>f__AnonymousType1`3[System.String,System.String,<>f__AnonymousType2`1[System.String]]]' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContract.GetDataContract(RuntimeTypeHandle typeHandle, Type type, SerializationMode mode)
+   at System.Runtime.Serialization.XsdDataContractExporter.GetRootElementName(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.CreateSerializer(Type type)
+2023-03-01 18:51:00.827 +04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-03-01 18:51:00.829 +04:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-03-01 18:51:00.830 +04:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-03-01 18:51:00.831 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/api/cities?pageNumber=1&pageSize=10 - - - 406 0 - 646.1730ms
+2023-03-01 18:51:11.690 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/api/cities?pageNumber=1&pageSize=10 - -
+2023-03-01 18:51:11.697 +04:00 [DBG] The request path  does not match the path filter
+2023-03-01 18:51:11.699 +04:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2023-03-01 18:51:11.700 +04:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2023-03-01 18:51:11.702 +04:00 [INF] Request did not specify a service API version, but multiple candidate actions were found. Candidate actions: CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)
+2023-03-01 18:51:11.703 +04:00 [DBG] Request matched endpoint 'null'
+2023-03-01 18:51:11.705 +04:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-01 18:51:11.705 +04:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-03-01 18:51:11.706 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-01 18:51:11.712 +04:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-03-01 18:51:11.713 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-01 18:51:11.715 +04:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-03-01 18:51:11.950 +04:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-03-01 18:51:11.952 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/api/cities?pageNumber=1&pageSize=10 - - - 400 123 application/json;+charset=utf-8 261.5049ms
+2023-03-01 18:51:58.581 +04:00 [DBG] Connection id "0HMOQCH183OTL" received FIN.
+2023-03-01 18:51:58.670 +04:00 [DBG] Connection id "0HMOQCH183OTL" is closed. The last processed stream ID was 3.
+2023-03-01 18:51:58.762 +04:00 [DBG] Connection id "0HMOQCH183OTL" sending FIN because: "The client closed the connection."
+2023-03-01 18:51:58.774 +04:00 [DBG] Connection id "0HMOQCH183OTL" stopped.
+2023-03-01 19:02:12.214 +04:00 [DBG] Connection id "0HMOQCH183OTM" accepted.
+2023-03-01 19:02:12.227 +04:00 [DBG] Connection id "0HMOQCH183OTM" started.
+2023-03-01 19:02:12.247 +04:00 [DBG] Connection 0HMOQCH183OTM established using the following protocol: "Tls12"
+2023-03-01 19:02:12.258 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7032/api/cities/2?includePointsOfInterest=false - -
+2023-03-01 19:02:12.264 +04:00 [DBG] The request path  does not match the path filter
+2023-03-01 19:02:12.267 +04:00 [DBG] 1 candidate(s) found for the request path '/api/cities/2'
+2023-03-01 19:02:12.270 +04:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)' with route pattern 'api/cities/{id}' is valid for the request path '/api/cities/2'
+2023-03-01 19:02:12.277 +04:00 [INF] Request did not specify a service API version, but multiple candidate actions were found. Candidate actions: CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)
+2023-03-01 19:02:12.278 +04:00 [DBG] Request matched endpoint 'null'
+2023-03-01 19:02:12.282 +04:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-01 19:02:12.283 +04:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-03-01 19:02:12.283 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-01 19:02:12.286 +04:00 [DBG] No information found on request to perform content negotiation.
+2023-03-01 19:02:12.287 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-01 19:02:12.288 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-01 19:02:12.289 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-01 19:02:12.290 +04:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-03-01 19:02:12.293 +04:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-03-01 19:02:12.294 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7032/api/cities/2?includePointsOfInterest=false - - - 400 123 application/json;+charset=utf-8 35.9702ms
