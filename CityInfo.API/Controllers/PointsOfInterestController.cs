@@ -17,7 +17,7 @@ namespace CityInfo.API.Controllers
     [ApiController]
     public class PointsOfInterestController : ControllerBase
     {
-        private readonly ILogger<PointsOfInterestController> _logger; //why we assign to readonly and _
+        private readonly ILogger<PointsOfInterestController> _logger; 
         private readonly IMailService _mailService;
         private readonly ICityInfoRepository _cityInfoRepository;
         private readonly IMapper _mapper;
@@ -149,7 +149,7 @@ namespace CityInfo.API.Controllers
             }
 
             _cityInfoRepository.DeletePointOfInterest(pointOfInterestEntity);
-            await _cityInfoRepository.SaveChangesAsync(); //mappings rom ar viyenebt bazashi ishleba da dtoshi?
+            await _cityInfoRepository.SaveChangesAsync(); 
 
             _mailService.Send("Point of interest deleted.", $"Point of interest {pointOfInterestEntity.Name} with id {pointOfInterestEntity.Id}");
             
