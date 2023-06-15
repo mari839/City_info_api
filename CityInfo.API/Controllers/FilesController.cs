@@ -13,7 +13,7 @@ namespace CityInfo.API.Controllers
 
         private readonly FileExtensionContentTypeProvider _fileExtensionContentTypeProvider;
 
-        public FilesController(FileExtensionContentTypeProvider fileExtensionContentTypeProvider) //??
+        public FilesController(FileExtensionContentTypeProvider fileExtensionContentTypeProvider) 
         {
             _fileExtensionContentTypeProvider = fileExtensionContentTypeProvider ?? throw new System.ArgumentNullException(nameof(fileExtensionContentTypeProvider));
         }
@@ -33,7 +33,7 @@ namespace CityInfo.API.Controllers
             }
 
             var bytes = System.IO.File.ReadAllBytes(pathToFile);
-            return File(bytes, contentType, Path.GetFileName(pathToFile)); //????
+            return File(bytes, contentType, Path.GetFileName(pathToFile)); 
 
         }
     }
