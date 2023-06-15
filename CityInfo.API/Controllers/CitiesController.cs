@@ -33,7 +33,7 @@ namespace CityInfo.API.Controllers
                 pageSize = maxCitiesPageSize;
             }
             //empty collection should not result in 404 not found because the resource can be found, it's empty
-            var (cityEntities, paginationMetadata) = await _cityInfoRepository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize); ////// type of method has to be the same? why are we still writing the same?
+            var (cityEntities, paginationMetadata) = await _cityInfoRepository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize); //?
         
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetadata));
             //rat gvinda Dto da entities rato vmapavt mapper from entity to the DTO
